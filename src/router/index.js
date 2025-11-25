@@ -1,6 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { authGuard } from './guards'
 
+// IMPORTANT: base path for GitHub Pages
+// Your site lives at: https://drippy-2.github.io/AlienSoftManager/
+const BASE_URL = '/AlienSoftManager/'
+
 const routes = [
   {
     path: '/',
@@ -45,7 +49,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(BASE_URL), // <<< REQUIRED FOR GITHUB PAGES
   routes,
   scrollBehavior() {
     return { top: 0 }
