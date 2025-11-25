@@ -9,9 +9,6 @@ This system includes authentication, complete product CRUD operations, dynamic c
 
 🔐 Test Admin Login (DummyJSON)
 
-Username: emilys
-Password: emilyspass
-
 
 (Other test users follow username → {username}pass)
 
