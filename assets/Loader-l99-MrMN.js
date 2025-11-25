@@ -1,0 +1,1 @@
+import{_ as r,i as s,e as t,f as n}from"./index-CSEyxdT9.js";const o={},a={class:"flex justify-center items-center p-8"};function c(i,e){return t(),s("div",a,[...e[0]||(e[0]=[n("div",{class:"animate-spin rounded-full h-12 w-12 border-b-2 border-primary"},null,-1)])])}const l=r(o,[["render",c]]);export{l as L};

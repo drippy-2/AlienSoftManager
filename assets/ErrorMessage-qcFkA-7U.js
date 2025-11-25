@@ -1,1 +1,0 @@
-import{i as r,x as t,e as s,t as a}from"./index-BT0lg7tZ.js";const d={key:0,class:"bg-red-50 dark:bg-red-950 border border-red-400 dark:border-red-700 text-red-700 dark:text-red-300 px-4 py-3 rounded mb-4"},m={__name:"ErrorMessage",props:{message:String},setup(e){return(o,n)=>e.message?(s(),r("div",d,a(e.message),1)):t("",!0)}};export{m as _};
